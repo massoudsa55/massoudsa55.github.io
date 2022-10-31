@@ -39,7 +39,7 @@ const RESOURCES = {
 "assets/assets/work/dsc.png": "bd954ceeeb42b91899ebe1c3b0d79850",
 "assets/assets/work/flutterIsl.png": "aaaeddae163a2e71636d9d494e16f2db",
 "assets/assets/work/st.png": "0957bd1682c5a518247a1844656c0f7e",
-"assets/data.json": "d4a2f612edbbf0a9f5753553a5e0201d",
+"assets/data.json": "d6ba2204cd9afda997c7253903fc9979",
 "assets/FontManifest.json": "eb13a0d169d41e78994c5d6eb9075409",
 "assets/fonts/agustina/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
 "assets/fonts/MaterialIcons-Regular.otf": "e7069dfd19b331be16bed984668fe080",
@@ -87,9 +87,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "23624f2dd911e8888886a65e526d813a",
 "icons/Icon-maskable-192.png": "a2f96cdf79efd35169d4ebea3ca9103a",
 "icons/Icon-maskable-512.png": "23624f2dd911e8888886a65e526d813a",
-"index.html": "d6ae690970aaac154496a6bb12718d5f",
-"/": "d6ae690970aaac154496a6bb12718d5f",
-"main.dart.js": "3109266a4bb5a7147d0df8235a5089d7",
+"index.html": "50ddc2777c31f6f7554e3b2b180713d0",
+"/": "50ddc2777c31f6f7554e3b2b180713d0",
+"main.dart.js": "6dccd2005622a9127a5153169f240a4e",
 "manifest.json": "5d4747b37eda0f49fdf44818d2bdf6c6",
 "version.json": "2be41429b18f564e0d86aa43a00571c5"
 };

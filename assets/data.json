@@ -3,11 +3,11 @@
     "email": "massoudsa55@gmail.com",
     "subtitles": [
         "Mobile App Development",
-    "Desktop development",
-    "Networks Management",
-    "UI/UX Designing",
-    "Rapid Prototyping",
-    "Open Source - GitHub"
+        "Desktop development",
+        "Networks Management",
+        "UI/UX Designing",
+        "Rapid Prototyping",
+        "Open Source - GitHub"
     ],
     "blackWhitePhotoURL": "https://drive.google.com/uc?export=view&id=1np1Or8kvpEmH5ghkFN5GJGqU8VAQRUCH",
     "coloredPhotoURL": "https://drive.google.com/uc?export=view&id=1wE4FRqC9bRrzOqS64b48--ykLK1yklTJ",
@@ -29,45 +29,49 @@
             "url": "https://github.com/massoudsa55"
         }
     ],
-    "aboutMeHeadline": "I'm Benkouider Messaoud, a Flutter developer, Desktop developer, Network Engineer and UI designer.",
-    "aboueMeDetails": "I'm a Final Year Computer Science student enrolled in ZIANE ACHOUR University, Djelfa. I have been developing mobile apps for over 2 years now. I have worked in teams for various startups and helped them in launching their prototypes and got valuable learning experience. I'm a former Google DSC lead and also CEO/Co-Founder Flutter Islamabad, Pakistan.",
+    "aboutMeHeadline": "I'm Benkouider Messaoud, a flutter developer, desktop developer, network engineer and ui designer.",
+    "aboueMeDetails": "I am young graduate of ZIANE ACHOUR University, Djelfa.\nI have two diplomas in this university:\nFirst Diploma Bachelor of computer science 2015-2018\n   Project: Educational management system for IT science department.\nLast diploma Master degree in Networks & distributed systems 2018-2020\n   Thesis: Study and implementation of an SDN solution (VLANs management application).\nAnd i have experience in mobile application development, where I have developed applications for several clients as Freelancer.\nAs for desktop applications, I also have many applications in this field.\nAnd for network management, I have practical experience\n   - Three months intern at Caisse Nationale Assurances Sociales of Djelfa.\n   - One years experience Network engineer at Ecole Superior Transmission of Kolea Algeria.\nAnd this domain i was able to focus on Implementing system management and control strategies in all network facilities, and the configurations using in the router and don the switches and in the firewall.",
     "technologies": [
         "Flutter",
         "Dart",
-        "Python",
+        "c#",
         "Java",
-        "C++",
-        "Flask"
+        "C++"
     ],
     "services": [
         {
-            "icon": "assets/services/app.png",
+            "icon": "assets/services/dev_mobile.png",
             "name": "Mobile App Development",
             "description": "Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!"
         },
         {
-            "icon": "assets/services/ui.png",
+            "icon": "assets/services/dev_desktop.png",
+            "name": "Desktop development",
+            "description": "Desktop app development via c#\n- EntityFramwork\n- DevExpress\n- Binifu\n -Guna2\n- REST APIs\n- Sql Server ..!"
+        },
+        {
+            "icon": "assets/services/network_management.png",
+            "name": "Networks Management",
+            "description": "Network management\n- Network installaion\n- Configuration switch\n- Configuration router\n- Active directory ..!"
+        },
+        {
+            "icon": "assets/services/uiux.png",
             "name": "UI/UX Designing",
             "description": "Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!"
         },
         {
-            "icon": "assets/services/rapid.png",
+            "icon": "assets/services/blog.png",
             "name": "Rapid Prototyping",
             "description": "Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype"
         },
         {
-            "icon": "assets/services/blog.png",
-            "name": "Technical Blog Writing",
-            "description": "Technical Blog writing\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!"
-        },
-        {
-            "icon": "assets/services/open.png",
+            "icon": "assets/services/open_source.png",
             "name": "Open Source - GitHub",
             "description": "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!"
         }
     ],
     "hireMe": {
-        "whatsapp": "923460159889"
+        "whatsapp": "213795398686"
     },
     "projects": [
         {
@@ -140,15 +144,15 @@
     "contact": [
         {
             "param": "address",
-            "value": "Attock, Pakistan"
+            "value": "Djelfa, Algeria"
         },
         {
             "param": "phone",
-            "value": "+92 346 0159889"
+            "value": "+213 795 398686"
         },
         {
             "param": "email",
-            "value": "hamza.6.shakeel@gmail.com"
+            "value": "massoudsa55@gmail.com"
         }
     ]
 }
