@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "03503ca9b974c382a52390d412cbd88d",
+  "assets/AssetManifest.json": "4ffaa69efc199d93f3e95b35980e6e09",
 "assets/assets/hi.gif": "cad5918d86b6a7e83f1fb4acead70e4c",
 "assets/assets/photos/icon_of_app.png": "1fb148916bf1fa9b11f89698d06aa569",
 "assets/assets/photos/img_black_white.png": "477aee324c943253d9100d6733269e72",
@@ -15,6 +15,8 @@ const RESOURCES = {
 "assets/assets/projects/covidB.png": "1884ac58a9de5d81e995f1e46e4b7398",
 "assets/assets/projects/earbender.png": "64099d76f6c7df0fac39c222293fd473",
 "assets/assets/projects/flutter.png": "0b5a2f8d3f4d173805affaf9f84f6c87",
+"assets/assets/projects/furniture.png": "bf08fb66594d9837d11c1a7d7609e3fa",
+"assets/assets/projects/furniture_icon.png": "066d3747911af4cdf7ab8e66cfe269c4",
 "assets/assets/projects/hereiam.png": "cbb5a77a5e19e1224080dcaf0e3b5407",
 "assets/assets/projects/hereiamB.png": "16ee68a57fbf0eae5c50e1b8376064df",
 "assets/assets/projects/java.png": "62be9fb6e1d7166e9cbeeed913096752",
@@ -88,9 +90,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "23624f2dd911e8888886a65e526d813a",
 "icons/Icon-maskable-192.png": "a2f96cdf79efd35169d4ebea3ca9103a",
 "icons/Icon-maskable-512.png": "23624f2dd911e8888886a65e526d813a",
-"index.html": "031a86358f38a804d0a24a2fb7b5ec76",
-"/": "031a86358f38a804d0a24a2fb7b5ec76",
-"main.dart.js": "13a44d801aaa9a3d20eaeb5342328324",
+"index.html": "643edb6fd3f9066032168538d678f2cb",
+"/": "643edb6fd3f9066032168538d678f2cb",
+"main.dart.js": "265dbf978db5d5a242ab72f3cc433160",
 "manifest.json": "5d4747b37eda0f49fdf44818d2bdf6c6",
 "version.json": "2be41429b18f564e0d86aa43a00571c5"
 };
