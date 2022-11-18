@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "4ffaa69efc199d93f3e95b35980e6e09",
+  "assets/AssetManifest.json": "10ffaf06dfea0602505760434e6aad13",
 "assets/assets/hi.gif": "cad5918d86b6a7e83f1fb4acead70e4c",
 "assets/assets/photos/icon_of_app.png": "1fb148916bf1fa9b11f89698d06aa569",
 "assets/assets/photos/img_black_white.png": "477aee324c943253d9100d6733269e72",
@@ -27,6 +27,8 @@ const RESOURCES = {
 "assets/assets/projects/riofarm_icon.png": "1029992dc8c838dac838b2373c539863",
 "assets/assets/projects/whatsapp_messanger.png": "7473c19e19b1de23870abe2ae657d792",
 "assets/assets/projects/whatsapp_messanger_icon.png": "5888d9fca63142928c8f535ca1a00baa",
+"assets/assets/projects/women_bags.png": "1992036f1e50aea34fda1357d85d645b",
+"assets/assets/projects/women_bags_icon.png": "b50b30848f7c41786c8756f01aa80fa5",
 "assets/assets/services/app.png": "9d2da88edb7f550ef24874b306b4ae12",
 "assets/assets/services/blog.png": "9d6ad301c8b3d8c7979d71f1dde065fc",
 "assets/assets/services/dev_desktop.png": "60f8a09845f06d3c6e91d830cb31a217",
@@ -90,9 +92,9 @@ const RESOURCES = {
 "icons/Icon-512.png": "23624f2dd911e8888886a65e526d813a",
 "icons/Icon-maskable-192.png": "a2f96cdf79efd35169d4ebea3ca9103a",
 "icons/Icon-maskable-512.png": "23624f2dd911e8888886a65e526d813a",
-"index.html": "643edb6fd3f9066032168538d678f2cb",
-"/": "643edb6fd3f9066032168538d678f2cb",
-"main.dart.js": "265dbf978db5d5a242ab72f3cc433160",
+"index.html": "c642889f89f07029c891f8901c33a483",
+"/": "c642889f89f07029c891f8901c33a483",
+"main.dart.js": "e2ed1fac48ae5e4457577f0d78316c0e",
 "manifest.json": "5d4747b37eda0f49fdf44818d2bdf6c6",
 "version.json": "2be41429b18f564e0d86aa43a00571c5"
 };
