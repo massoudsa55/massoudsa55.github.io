@@ -1410,7 +1410,7 @@ return s===0?1:s},
 apK(a){return new A.UJ($.aa,a)},
 adQ(){var s,r,q,p,o=self.window.navigator.languages
 o=o==null?null:J.cJ(o,t.N)
-if(o==null||o.gp(o)===0)return B.mO
+if(o==null||o.gp(o)===0)return B.mP
 s=A.a([],t.ss)
 for(o=new A.d8(o,o.gp(o)),r=A.k(o).c;o.q();){q=o.d
 if(q==null)q=r.a(q)
@@ -1551,7 +1551,7 @@ else return new A.Mw(A.a([],s))},
 aeb(a,b,c,d,e,f){return new A.XJ(A.a([],t.L5),A.a([],t.Kd),e,a,b,f,d,c,f)},
 al3(){var s=$.abN
 if(s==null){s=t.jQ
-s=$.abN=new A.jB(A.afx(u.K,937,B.mS,s),B.aJ,A.y(t.S,s),t.MX)}return s},
+s=$.abN=new A.jB(A.afx(u.K,937,B.mT,s),B.aJ,A.y(t.S,s),t.MX)}return s},
 awT(a,b,c){var s=A.avq(a,b,c)
 if(s.a>c)return new A.dn(c,Math.min(c,s.b),Math.min(c,s.c),B.bl)
 return s},
@@ -1566,7 +1566,7 @@ i=!j
 if(i)a=null
 c=A.Q0(a1,a2)
 h=$.abN
-g=(h==null?$.abN=new A.jB(A.afx(u.K,937,B.mS,r),B.aJ,A.y(q,r),p):h).nG(c)
+g=(h==null?$.abN=new A.jB(A.afx(u.K,937,B.mT,r),B.aJ,A.y(q,r),p):h).nG(c)
 f=g===B.fS
 if(b===B.dU||b===B.fT)return new A.dn(a2,o,n,B.cH)
 if(b===B.fX)if(g===B.dU)continue
@@ -6826,7 +6826,7 @@ atZ(a,b,c){var s,r,q
 if(b===c)return""
 if(!A.ajY(B.c.aa(a,b)))A.rp(a,b,"Scheme not starting with alphabetic character")
 for(s=b,r=!1;s<c;++s){q=B.c.aa(a,s)
-if(!(q<128&&(B.mM[q>>>4]&1<<(q&15))!==0))A.rp(a,s,"Illegal scheme character")
+if(!(q<128&&(B.mN[q>>>4]&1<<(q&15))!==0))A.rp(a,s,"Illegal scheme character")
 if(65<=q&&q<=90)r=!0}a=B.c.a0(a,b,c)
 return A.atW(r?a.toLowerCase():a)},
 atW(a){if(a==="http")return"http"
@@ -6930,7 +6930,7 @@ return B.b.bp(s,"/")},
 ajX(a){var s,r,q=a.length
 if(q>=2&&A.ajY(B.c.aa(a,0)))for(s=1;s<q;++s){r=B.c.aa(a,s)
 if(r===58)return B.c.a0(a,0,s)+"%3A"+B.c.c2(a,s+1)
-if(r>127||(B.mM[r>>>4]&1<<(r&15))===0)break}return a},
+if(r>127||(B.mN[r>>>4]&1<<(r&15))===0)break}return a},
 au1(a,b){if(a.a1j("package")&&a.c==null)return A.akH(b,0,b.length)
 return-1},
 atY(a,b){var s,r,q
@@ -22141,7 +22141,7 @@ th(a,b,c){return this.m0(a,b,c,B.dw)},
 Am(a){var s,r,q,p,o,n,m=A.a([],t.Lx)
 for(s=a.a,r=J.aP(s),q=a.$ti.z[1],p=0;p<r.gp(s);++p){o=q.a(r.j(s,p))
 n=o.direction.value
-m.push(new A.nk(o[0],o[1],o[2],o[3],B.mR[n]))}return m},
+m.push(new A.nk(o[0],o[1],o[2],o[3],B.mS[n]))}return m},
 i6(a){var s,r=this.d
 r.toString
 r=this.kN(r).getGlyphPositionAtCoordinate(a.a,a.b)
@@ -29645,7 +29645,7 @@ o=A.eq(r.j(s,"textAlignIndex"))
 n=A.eq(r.j(s,"textDirectionIndex"))
 m=A.rs(r.j(s,"fontWeightIndex"))
 l=m!=null?A.al6(m):"normal"
-q=new A.a4L(new A.Ul(A.au7(r.j(s,"fontSize")),l,A.cB(r.j(s,"fontFamily")),B.E0[o],B.mR[n]))
+q=new A.a4L(new A.Ul(A.au7(r.j(s,"fontSize")),l,A.cB(r.j(s,"fontFamily")),B.E0[o],B.mS[n]))
 break
 case"TextInput.clearClient":q=B.xS
 break
@@ -38175,7 +38175,7 @@ r=n.r
 n=n.CW
 q=p.gUv()
 p.a.toString
-return new A.y0(o,o,o,new A.a8i(),o,o,o,o,o,o,m,o,r,B.DN,p.gUA(),n,o,B.JK,s,o,q,o,o,B.mO,!1,!1,!1,!1,p.gUh(),!1,o,o,o,!1,new A.km(p,t.bT))},
+return new A.y0(o,o,o,new A.a8i(),o,o,o,o,o,o,m,o,r,B.DN,p.gUA(),n,o,B.JK,s,o,q,o,o,B.mP,!1,!1,!1,!1,p.gUh(),!1,o,o,o,!1,new A.km(p,t.bT))},
 D(a){var s,r=null,q=A.Ec(!1,!1,this.PS(a),r,r,r,r,!0,r,r,new A.a8j(),r,r)
 this.a.toString
 s=this.d
@@ -62402,7 +62402,7 @@ e=$.e6
 e.toString
 d=A.oA(B.av,$.b7*0.5*0.77+0.5)
 c=t.p
-b=A.cy(A.a([A.cC(B.mE,B.ap,B.o,B.r),B.IA,A.cC(B.mL,B.ap,B.o,B.r)],c),B.t,B.o,B.r)
+b=A.cy(A.a([A.cC(B.mE,B.ap,B.o,B.r),B.IA,A.cC(B.mM,B.ap,B.o,B.r)],c),B.t,B.o,B.r)
 a=$.fB
 a.toString
 a0=$.b7
@@ -62475,7 +62475,7 @@ g.toString
 f=A.oA(B.av,$.b7*0.5*0.77+0.5)
 e=A.cC(B.mE,B.ap,B.o,B.r)
 d=t.p
-e=A.cy(A.a([e,A.bO(a0,a0,a4>710?a4*0.2:a4*0.05),A.cC(B.mL,B.ap,B.o,B.r)],d),B.t,B.o,B.r)
+e=A.cy(A.a([e,A.bO(a0,a0,a4>710?a4*0.2:a4*0.05),A.cC(B.mM,B.ap,B.o,B.r)],d),B.t,B.o,B.r)
 c=$.fB
 c.toString
 b=$.b7
@@ -62498,14 +62498,14 @@ s=$.b7
 r=new A.hc(B.n2,t.tm)
 return A.by(q,A.cC(A.a([B.m4,B.m5,o,A.aeS(B.kP,r.gdf(r).dP(0,new A.Sn(),t.a7).dj(0),B.w2,s*10*0.77+10,0)],t.p),B.t,B.o,B.r),B.j,q,q,q,q,q,q,p,q,q,q)}}
 A.Sn.prototype={
-$1(a){var s=null,r=a.gn(a),q=B.mP[a.gc1(a)]
-return new A.nv(A.a_3(s,B.mQ[a.gc1(a)],s,r,s,q),s)},
+$1(a){var s=null,r=a.gn(a),q=B.mQ[a.gc1(a)]
+return new A.nv(A.a_3(s,B.mR[a.gc1(a)],s,r,s,q),s)},
 $S:399}
 A.CJ.prototype={
 D(a){return A.cC(A.a([B.m4,B.m5,A.adE(new A.So(),3,A.RA(!0,B.aI,B.aH,B.dJ,!1,!0,$.b7*90*0.77+90,0.8))],t.p),B.t,B.o,B.r)}}
 A.So.prototype={
-$3(a,b,c){var s=null,r=B.n2[c],q=B.mP[c]
-return new A.bG(B.Bg,A.a_3(s,B.mQ[c],s,r,s,q),s)},
+$3(a,b,c){var s=null,r=B.n2[c],q=B.mQ[c]
+return new A.bG(B.Bg,A.a_3(s,B.mR[c],s,r,s,q),s)},
 $S:76}
 A.EA.prototype={
 D(a){return B.Hc}}
@@ -62741,7 +62741,7 @@ p=$.b7
 o=A.vI(n,n,n,n,n,n,n,n,n,n,n,n,n,n,n,B.cq,n,n,n,n)
 return A.by(n,A.cC(A.a([B.m2,B.m6,new A.oi(m,s,n,new A.BU(new A.aN(new A.a6(r,t.wC),t.Fe)),l,n),q,A.bO(A.FO(A.b5("See More",$.t2,n,n),new A.a9t(),o),p*14*0.77+14,p*50*0.77+50)],t.p),B.t,B.o,B.r),B.j,n,n,n,n,n,n,j,n,n,n)}}
 A.a9s.prototype={
-$1(a){var s=a.gn(a),r=B.n0[a.gc1(a)],q=B.mU[a.gc1(a)],p=B.mG[a.gc1(a)]
+$1(a){var s=a.gn(a),r=B.n0[a.gc1(a)],q=B.mL[a.gc1(a)],p=B.mG[a.gc1(a)]
 return A.cy(A.a([A.a_3(s,B.mI[a.gc1(a)],r,null,q,p)],t.p),B.t,B.o,B.r)},
 $S:404}
 A.a9t.prototype={
@@ -62754,7 +62754,7 @@ s=$.b7
 r=A.vI(q,q,q,q,q,q,q,q,q,q,q,q,q,q,q,B.cq,q,q,q,q)
 return A.cC(A.a([B.m2,B.m6,p,o,A.bO(A.FO(A.b5("See More",$.t2,q,q),new A.ZS(),r),s*14*0.77+14,s*50*0.77+50)],t.p),B.t,B.o,B.r)}}
 A.ZR.prototype={
-$3(a,b,c){var s=B.n0[c],r=B.mU[c],q=B.mG[c]
+$3(a,b,c){var s=B.n0[c],r=B.mL[c],q=B.mG[c]
 return new A.bG(B.Bh,A.a_3(null,B.mI[c],s,null,r,q),null)},
 $S:76}
 A.ZS.prototype={
@@ -62775,7 +62775,7 @@ r.toString
 q=new A.hc(B.fZ,t.ly)
 return A.by(p,A.cC(A.a([B.m3,B.m7,r,A.aeS(B.kP,q.gdf(q).dP(0,new A.a23(),t.m1).dj(0),B.O_,n.a.b*0.05,o.a.a*0.05)],t.p),B.t,B.o,B.r),B.j,p,p,p,p,p,p,new A.au(s,0,s,0),p,p,p)}}
 A.a23.prototype={
-$1(a){return new A.jL(B.fZ[a.gc1(a)],B.mN[a.gc1(a)],B.mT[a.gc1(a)],null)},
+$1(a){return new A.jL(B.fZ[a.gc1(a)],B.mO[a.gc1(a)],B.mU[a.gc1(a)],null)},
 $S:405}
 A.HI.prototype={
 D(a){var s=t.w,r=a.H(s).f.a.b
@@ -62785,7 +62785,7 @@ s.toString
 return A.cC(A.a([B.m3,B.m7,s,A.adE(new A.a24(r),6,A.RA(!0,B.fF,B.c0,B.dJ,!1,!0,r*0.4,0.7))],t.p),B.t,B.o,B.r)}}
 A.a24.prototype={
 $3(a,b,c){var s=this.a*0.01
-return new A.bG(new A.au(0,s,0,s),new A.jL(B.fZ[c],B.mN[c],B.mT[c],null),null)},
+return new A.bG(new A.au(0,s,0,s),new A.jL(B.fZ[c],B.mO[c],B.mU[c],null),null)},
 $S:76}
 A.jL.prototype={
 ab(){return new A.Nq(new A.bk(null,t.Fa),B.k)}}
@@ -66466,10 +66466,11 @@ B.CX=A.a(s([B.aC,B.b9,B.af,B.ba,B.aX,B.bb]),t.r6)
 B.mI=A.a(s(["This app presentation of IOT, Riofarm it is a smart farming use many technologies for example for the maps i use MapBox provider","Application of Chat Messenger ui app show more in README.md","A Plants UI App developed using Flutter and using modern UI.","A Furniture UI App developed using Flutter, modern UI and using API for data for representation.","A E-Commerce of Women Bags UI App developed using Flutter and using modern UI.","A Sign in/up UI App developed using Flutter and using modern UI.","A live trakcer for COVID19 stats across the Globe and my Home country. It uses APIs so the data is live.","Tried to clone the famous Chat Heads by Facebook Messenger using Flutter. Its basically in-app not exactly like the original chat head.","Flutter Official Site clone using Flutter Web. Try the live site here. For the time being its not responsive fully so there might be responsiveness issues.","A concept of Music App developed using Flutter. Having functionality of playing Audio.","A simple GUI based Java application that sends file from Client to Server but not the other way around.","A concept app for self-services at various restaurants now a days. More like a Restaurant Ordering System.","Its my end semester project. The whole design I developed here is an inspiration from my favortie Flutter Developer Marcin Sza\u0142ek and his blog Fidev."]),t.s)
 B.mJ=A.a(s(["HOME","ABOUT","SERVICES","PROJECTS","CONTACT"]),t.s)
 B.D8=A.a(s(["https://facebook.com/Massoud.Benkouider",u.u,"https://linkedin.com/in/messaoud-benkouider-0b7a3515a/","https://github.com/massoudsa55"]),t.s)
+B.mL=A.a(s(["https://github.com/massoudsa55/Riofarm","https://github.com/massoudsa55/Chat-Massenger-UI-App-Dark_and_Light-Mode","https://github.com/massoudsa55/Plants-UI-Flutter-App","https://github.com/massoudsa55/Furniture_UI_FlutterApp","https://github.com/massoudsa55/E-Commerce-FlutterApp","https://github.com/massoudsa55/SignIN-Up_UI_Flutter_App","https://github.com/massoudsa55/Covid19-Tracker-App","https://github.com/massoudsa55/Messenger-Chat-Head-Flutter-UI","https://github.com/massoudsa55/flutter.dev-Flutter-Web-Clone","https://github.com/massoudsa55/Earbender_Music_App","https://github.com/massoudsa55/FTP_GUI_Java","https://github.com/massoudsa55/My-Order-Resturant-Ordering-System","https://github.com/massoudsa55/Hidev_Web"]),t.s)
 B.Dd=A.a(s([-1,0,0,1,0,0,-1,0,1,0,0,0,-1,1,0,1,1,1,1,0]),t.up)
 B.e2=A.a(s([0,0,65490,45055,65535,34815,65534,18431]),t.t)
 B.wi=new A.lD("From","Djelfa, DZ",null)
-B.mL=A.a(s([B.l1,B.wi]),t.p)
+B.mM=A.a(s([B.l1,B.wi]),t.p)
 B.mu=new A.cm(58136,"MaterialIcons",null)
 B.BN=new A.cm(58513,"MaterialIcons",null)
 B.BS=new A.cm(59122,"MaterialIcons",null)
@@ -66498,22 +66499,22 @@ B.kN=new A.cA(17,"WSegSpace")
 B.w0=new A.cA(18,"Unknown")
 B.Dg=A.a(s([B.kK,B.co,B.aa,B.eR,B.eS,B.kO,B.dq,B.NZ,B.dr,B.ds,B.aP,B.kL,B.kM,B.dn,B.bg,B.eQ,B.dp,B.kN,B.w0]),A.af("w<cA>"))
 B.fZ=A.a(s(["assets/services/dev_mobile.png","assets/services/dev_desktop.png","assets/services/network_management.png","assets/services/uiux.png","assets/services/blog.png","assets/services/open_source.png"]),t.s)
-B.mM=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
-B.mN=A.a(s(["Mobile App Development","Desktop development","Networks Management","UI/UX Designing","Rapid Prototyping","Open Source - GitHub"]),t.s)
+B.mN=A.a(s([0,0,26624,1023,65534,2047,65534,2047]),t.t)
+B.mO=A.a(s(["Mobile App Development","Desktop development","Networks Management","UI/UX Designing","Rapid Prototyping","Open Source - GitHub"]),t.s)
 B.Dj=A.a(s(["https://img.icons8.com/metro/208/ffffff/facebook-new--v2.png","https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png","https://img.icons8.com/metro/308/ffffff/linkedin.png","https://img.icons8.com/material-rounded/384/ffffff/github.png"]),t.s)
 B.Ei=new A.kA("en","US")
-B.mO=A.a(s([B.Ei]),t.ss)
-B.mP=A.a(s(["Location","Phone","Email"]),t.s)
+B.mP=A.a(s([B.Ei]),t.ss)
+B.mQ=A.a(s(["Location","Phone","Email"]),t.s)
 B.kV=new A.ri(0,"named")
 B.OZ=new A.ri(1,"anonymous")
 B.Dp=A.a(s([B.kV,B.OZ]),A.af("w<ri>"))
-B.mQ=A.a(s(["Djelfa, Algeria","(+213) 795 398686","massoudsa55@gmail.com"]),t.s)
+B.mR=A.a(s(["Djelfa, Algeria","(+213) 795 398686","massoudsa55@gmail.com"]),t.s)
 B.bc=new A.qn(0,"upstream")
 B.X=new A.qn(1,"downstream")
 B.Dy=A.a(s([B.bc,B.X]),A.af("w<qn>"))
 B.L=new A.jy(0,"rtl")
 B.p=new A.jy(1,"ltr")
-B.mR=A.a(s([B.L,B.p]),A.af("w<jy>"))
+B.mS=A.a(s([B.L,B.p]),A.af("w<jy>"))
 B.AJ=new A.E(855638016)
 B.Gy=new A.p(0,2)
 B.wX=new A.cs(-1,B.ak,B.AJ,B.Gy,1)
@@ -66522,10 +66523,9 @@ B.d2=new A.p(0,1)
 B.wZ=new A.cs(0,B.ak,B.AH,B.d2,1)
 B.x_=new A.cs(0,B.ak,B.fy,B.d2,3)
 B.Dz=A.a(s([B.wX,B.wZ,B.x_]),t.V)
-B.mS=A.a(s([B.fO,B.dR,B.dU,B.fT,B.fX,B.e0,B.mC,B.fY,B.aJ,B.e1,B.bD,B.cI,B.c7,B.dS,B.cJ,B.fP,B.bm,B.dT,B.fQ,B.mA,B.aA,B.dV,B.cK,B.cL,B.fR,B.dW,B.fS,B.dX,B.mB,B.dY,B.fU,B.dZ,B.cM,B.cN,B.fV,B.fW,B.e_]),A.af("w<b8>"))
-B.mT=A.a(s(["Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!","Desktop app development via c#\n- EntityFramwork\n- DevExpress\n- Binifu\n -Guna2\n- REST APIs\n- Sql Server ..!","Network management\n- Network installaion\n- Configuration switch\n- Configuration router\n- Active directory ..!","Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!","Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype","Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!"]),t.s)
+B.mT=A.a(s([B.fO,B.dR,B.dU,B.fT,B.fX,B.e0,B.mC,B.fY,B.aJ,B.e1,B.bD,B.cI,B.c7,B.dS,B.cJ,B.fP,B.bm,B.dT,B.fQ,B.mA,B.aA,B.dV,B.cK,B.cL,B.fR,B.dW,B.fS,B.dX,B.mB,B.dY,B.fU,B.dZ,B.cM,B.cN,B.fV,B.fW,B.e_]),A.af("w<b8>"))
+B.mU=A.a(s(["Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!","Desktop app development via c#\n- EntityFramwork\n- DevExpress\n- Binifu\n -Guna2\n- REST APIs\n- Sql Server ..!","Network management\n- Network installaion\n- Configuration switch\n- Configuration router\n- Active directory ..!","Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!","Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype","Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!"]),t.s)
 B.DD=A.a(s(["pointerdown","pointermove","pointerleave","pointerup","pointercancel","touchstart","touchend","touchmove","touchcancel","mousedown","mousemove","mouseleave","mouseup","keyup","keydown"]),t.s)
-B.mU=A.a(s(["https://github.com/massoudsa55/Riofarm","https://github.com/massoudsa55/chat_app","https://github.com/massoudsa55/Plants-UI-Flutter-App","https://github.com/massoudsa55/Furniture_UI_FlutterApp","https://github.com/massoudsa55/E-Commerce-FlutterApp","https://github.com/massoudsa55/SignIN-Up_UI_Flutter_App","https://github.com/massoudsa55/Covid19-Tracker-App","https://github.com/massoudsa55/Messenger-Chat-Head-Flutter-UI","https://github.com/massoudsa55/flutter.dev-Flutter-Web-Clone","https://github.com/massoudsa55/Earbender_Music_App","https://github.com/massoudsa55/FTP_GUI_Java","https://github.com/massoudsa55/My-Order-Resturant-Ordering-System","https://github.com/massoudsa55/Hidev_Web"]),t.s)
 B.DF=A.a(s(["click","scroll"]),t.s)
 B.DG=A.a(s(["assets/projects/riofarm.png","assets/projects/whatsapp_messanger.png","assets/projects/plants.png","assets/projects/furniture.png","assets/projects/women_bags.png","assets/projects/signin-up.png","assets/projects/covidB.png"]),t.s)
 B.DH=A.a(s([0,0,0,0,1,0,0,0,0,1,0,0,0,0,1,0,0,0,1,0]),t.up)
